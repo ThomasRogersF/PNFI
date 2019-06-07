@@ -3,7 +3,7 @@ $username=$_POST['uid'];
 $password=($_POST['pwd']);
 $login=$_POST['submit2'];
 if(isset($login)){
-  $mysqli = new mysqli("localhost", "root", "", "sistema1");
+  $mysqli = new mysqli("localhost", "root", "", "sistema");
   if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: " . $mysqli->connect_error;
   }
