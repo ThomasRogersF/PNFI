@@ -10,7 +10,12 @@ session_start();
 		<meta charset="utf-8">
 		<title></title>
 	
-		
+	
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    
 
  
 
@@ -84,37 +89,7 @@ session_start();
         <input type="number" name="cedula" class="box" placeholder="Cedula" min="1000000" max="40000000" required> <br><br>
         
         
-        <label for="Cargo">Materia: </label>
-        
-            <select id="list" name="cargo" required>
-                <option value="CIENCIAS NATURALES 1">CIENCIAS NATURALES 1</option>
-                <option value="CIENCIAS NATURALES 2">CIENCIAS NATURALES 2</option>
-                <option value="BIOLOGIA 3">BIOLOGIA 3</option>
-                <option value="BIOLOGIA 4">BIOLOGIA 4</option>
-                <option value="BIOLOGIA 5">BIOLOGIA 5</option>
-                <option value="QUIMICA 3">QUIMICA 3</option>
-                <option value="QUIMICA 4">QUIMICA 4</option>
-                <option value="QUIMICA 5">QUIMICA 5</option>
-                <option value="FISICA 3">FISICA 3</option>
-                <option value="FISICA 4">FISICA 4</option>
-                <option value="FISICA 5">FISICA 5</option>
-                <option value="CIENCIAS DE LA TIERRA 5">CIENCIAS DE LA TIERRA 5</option>
-                <option value="EDUCACIÓN FISICA 1">EDUCACIÓN FISICA 1</option>
-                <option value="EDUCACION FISICA 2">EDUCACION FISICA 2</option>
-                <option value="EDUCACION FISICA 3">EDUCACION FISICA 3</option>
-                <option value="EDUCACION FISICA 4">EDUCACION FISICA 4</option>
-                <option value="EDUCACION FISICA 5">EDUCACION FISICA 5</option>
-                <option value="CASTELLANO Y LITERATURA 1">CASTELLANO Y LITERATURA 1</option>
-                <option value="CASTELLANO Y LITERATURA 2">CASTELLANO Y LITERATURA 2</option>
-                <option value="CASTELLANO Y LITERATURA 3">CASTELLANO Y LITERATURA 3</option>
-                <option value="CASTELLANO Y LITERATURA 4">CASTELLANO Y LITERATURA 4</option>
-                <option value="CASTELLANO Y LITERATURA 5">CASTELLANO Y LITERATURA 5</option>
-                <option value="INGLES Y OTRAS LENGUAS EXTRANJERAS 1">INGLES Y OTRAS LENGUAS EXTRANJERAS 1</option>
-                <option value="INGLES Y OTRAS LENGUAS EXTRANJERAS 2">INGLES Y OTRAS LENGUAS EXTRANJERAS 2</option>
-                <option value="INGLES Y OTRAS LENGUAS EXTRANJERAS 3">INGLES Y OTRAS LENGUAS EXTRANJERAS 3</option>
-            
-             
-            </select><br><br>
+
             <label for="nombre">Horas:</label>
             <input type="text" name="horas" class="box" placeholder=""  maxlength="15" required><br><br>
 
@@ -136,9 +111,12 @@ session_start();
 
 
 
-
 </form>
 	</div>
+
+
+
+    <script src='./js-functions/cambio-de-opciones.js'></script>
 
 </body>
 </html>

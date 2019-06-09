@@ -60,7 +60,7 @@ session_start();
             <a href="signup.php"><div class="menu">Registrar Usuario</div></a>
       
         
-            <a href="bases.php"><div class="menu">Registros</div></a>
+            <a href="seleccion_de_materias.php"><div class="menu">Registros</div></a>
             
             
             <a href="calendario.php"><div class="menu">Asistencias</div></a>
